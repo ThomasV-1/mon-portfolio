@@ -5,10 +5,290 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Portfolio de [Thomas Voué]" />
     <title>Portfolio - Voué Thomas</title>
-    <link rel="icon" href="favicon.ico" />
+    <link rel="icon" href="favicon.png" />
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
+    <header class="navbar" id="navbar">
+      <nav class="nav-container">
+        <a href="#hero" class="nav-logo">Thomas<span></span></a>
+
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#about">À propos</a></li>
+          <li><a href="#skills">Compétences</a></li>
+          <li><a href="#projects">Projets</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <button class="burger" id="burger" aria-label="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </header>
+    <section class="hero" id="hero">
+      <div class="hero-content">
+        <p class="hero-subtitle">Bonjour, je suis</p>
+        <h1 class="hero-title">Thomas <span class="highlight">Voué</span></h1>
+        <p class="hero-role">Futur développeur web</p>
+        <p class="hero-description">
+          En formation dans le numérique, je découvre les différents métiers de
+          ce secteur. J'aime aussi jouer sur PC, et m'intéresse aussi à
+          l'univers du gaming dans son ensemble.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">Voir mes projets</a>
+          <a href="#contact" class="btn btn-outline">Me contacter</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <!-- Votre photo — en attendant utilisez picsum.photos -->
+        <img
+          src="https://picsum.photos/400/400?random=1"
+          alt="Photo de Thomas Voué"
+          class="profile-photo"
+        />
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="container">
+        <h2 class="section-title">
+          À propos <span class="highlight">de moi</span>
+        </h2>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <!--
+          Racontez votre histoire en 3-5 phrases.
+          D'où venez-vous ? Pourquoi le numérique ?
+          Qu'est-ce qui vous motive ?
+          -->
+            <p>
+              J’ai commencé par un BTS CPI dans le secteur de l'industrie, j’ai
+              compris que cette voie ne me correspondait pas. Je me suis ensuite
+              orienté vers la fibre optique, avant de constater que le métier de
+              technicien ne me convenait pas non plus. C’est aux cours d’une
+              prépa projets que j’ai commencé à construire mon projet de
+              reconversion vers le numérique.
+            </p>
+            <p>
+              J'aime le gaming sur PC en solo ou avec mes amis, le modding de
+              jeux et tout ce qui touche à l'univers du numérique, avec
+              l'objectif de trouver un métier qui me plaît.
+            </p>
+
+            <!-- Lien vers un CV PDF — mettez votre propre lien -->
+            <a href="#" class="btn btn-primary" download>
+              https://cvdesignr.com/p/R1on5Ok47llAyMr
+            </a>
+          </div>
+
+          <!-- Quelques stats ou faits — modifiez les chiffres et labels -->
+          <div class="about-stats">
+            <div class="stat-card">
+              <span class="stat-number">1</span>
+              <span class="stat-label">Mois de formation</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">0</span>
+              <span class="stat-label">Projets réalisés</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">100%</span>
+              <span class="stat-label">Motivé</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">∞</span>
+              <span class="stat-label">Curiosité</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="skills" id="skills">
+      <div class="container">
+        <h2 class="section-title">
+          Mes <span class="highlight">compétences</span>
+        </h2>
+
+        <div class="skills-grid">
+          <!-- Catégorie 1 -->
+          <div class="skill-category">
+            <h3>Développement web</h3>
+
+            <!--
+          data-level = le pourcentage de la barre (0 à 100)
+          Modifiez les noms et les pourcentages selon votre niveau réel.
+          Soyez honnête — un recruteur peut vérifier !
+          -->
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">HTML</span>
+                <span class="skill-percent">10%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-level="10"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">CSS</span>
+                <span class="skill-percent">1%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-level="1"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">JavaScript</span>
+                <span class="skill-percent">1%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-level="1"></div>
+              </div>
+            </div>
+          </div>
+          <!-- fin .skill-category -->
+
+          <!-- Catégorie 2 — modifiez selon vos compétences -->
+          <div class="skill-category">
+            <h3>Systèmes &amp; réseaux</h3>
+
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">Windows / Linux</span>
+                <span class="skill-percent">70%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-level="70"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">Réseaux TCP/IP</span>
+                <span class="skill-percent">15%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-level="15"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name">VS Code</span>
+                <span class="skill-percent">20%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-level="20"></div>
+              </div>
+            </div>
+          </div>
+          <!-- fin .skill-category -->
+        </div>
+        <!-- fin .skills-grid -->
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <div class="container">
+        <h2 class="section-title">
+          Mes <span class="highlight">projets</span>
+        </h2>
+        <p class="section-subtitle">
+          Quelques réalisations — cliquez pour voir le code ou la démo
+        </p>
+
+        <div class="projects-grid">
+          <!-- Projet 1 — remplacez le contenu -->
+          <div class="project-card">
+            <div class="project-image">
+              <!--
+            Remplacez par une capture d'écran de votre projet.
+            Taille recommandée : 600x400px
+            -->
+              <img
+                src="https://picsum.photos/600/400?random=10"
+                alt="Projet 1 — [projet 1]"
+              />
+              <!-- Overlay qui apparaît au survol -->
+              <div class="project-overlay">
+                <p class="project-description">
+                  [Description courte de ce projet — ce que vous avez appris,
+                  les technologies utilisées, le problème résolu.]
+                </p>
+                <div class="project-links">
+                  <a href="#" class="btn btn-small">Voir le code</a>
+                  <a href="#" class="btn btn-small btn-outline">Démo live</a>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">[Projet 1]</h3>
+              <div class="project-tags">
+                <!-- Ajoutez les technologies utilisées -->
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+              </div>
+            </div>
+          </div>
+          <!-- fin .project-card -->
+
+          <!-- Projet 2 -->
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="https://picsum.photos/600/400?random=20"
+                alt="Projet 2 — [projet 2]"
+              />
+              <div class="project-overlay">
+                <p class="project-description">[Truc sympa.]</p>
+                <div class="project-links">
+                  <a href="#" class="btn btn-small">Voir le code</a>
+                  <a href="#" class="btn btn-small btn-outline">Démo live</a>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">[Projet 2]</h3>
+              <div class="project-tags">
+                <span class="tag">Python</span>
+                <span class="tag">Linux</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Projet 3 -->
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="https://picsum.photos/600/400?random=30"
+                alt="Projet 3 — [projet 3]"
+              />
+              <div class="project-overlay">
+                <p class="project-description">[Truc encore mieux]</p>
+                <div class="project-links">
+                  <a href="#" class="btn btn-small">Voir le code</a>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">[Projet 3]</h3>
+              <div class="project-tags">
+                <span class="tag">Réseau</span>
+                <span class="tag">CISCO</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- fin .projects-grid -->
+      </div>
+    </section>
+
     <script src="assets/js/script.js"></script>
   </body>
 </html>
