@@ -6,15 +6,15 @@
 ═══════════════════════════════════════════════════════════════ */
 :root {
   /* ── Couleurs principales ── */
-  --bg-primary: #0f172a; /* Fond sombre principal */
-  --bg-secondary: #1e293b; /* Fond des cartes */
-  --bg-card: #1e293b; /* Fond des éléments en relief */
+  --bg-primary: #0a0a0f; /* Fond sombre principal */
+  --bg-secondary: #1a0f2b; /* Fond des cartes */
+  --bg-card: #12003b; /* Fond des éléments en relief */
 
-  --accent-color: #10da2b; /* Violet — votre couleur signature */
-  --accent-light: #1d1daf; /* Violet clair — pour les textes sur fond sombre */
-  --accent-teal: #0d9488; /* Teal — couleur secondaire */
+  --accent-color: #ff007f; /* Violet — votre couleur signature */
+  --accent-light: #00f0ff; /* Violet clair — pour les textes sur fond sombre */
+  --accent-teal: #ffef00; /* Teal — couleur secondaire */
 
-  --text-primary: #f8fafc; /* Texte principal (blanc cassé) */
+  --text-primary: #f0f8ff; /* Texte principal (blanc cassé) */
   --text-secondary: #94a3b8; /* Texte secondaire (gris) */
   --text-muted: #64748b; /* Texte discret */
 
