@@ -1,11 +1,4 @@
 /*
-══════════════════════════════════════════════════════════════════
-TP MODULE 5 — script.js
-Portfolio personnel — JavaScript
-══════════════════════════════════════════════════════════════════
-
-Ce fichier gère tous les comportements interactifs du portfolio.
-Chaque section est expliquée avec l'analogie et la logique.
 
 PLAN :
   1. Sélection des éléments HTML (les "acteurs" du script)
